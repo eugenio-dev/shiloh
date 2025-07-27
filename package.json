@@ -1,0 +1,26 @@
+{
+  "name": "shiloh",
+  "version": "1.0.0",
+  "description": "Shiloh Private Server",
+  "main": "Shiloh/Shiloh.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Shiloh/Shiloh.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suvse7en/shiloh.git"
+  },
+  "author": "@eugee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suvse7en/shiloh/issues"
+  },
+  "homepage": "https://github.com/suvse7en/shiloh#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "xml2js": "^0.6.2"
+  }
+}
